@@ -1,0 +1,71 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+# Sensitive Settings
+blog_project/settings.py
+blog_project/local_settings.py
+blog_project/production_settings.py
+**/settings/local.py
+**/settings/production.py
+**/*_secret*
+**/*_private*
+**/*.secret.*
+**/*.private.*
+
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+!.env.example
+
+# Django static files
+staticfiles/
+
+# Security & Keys
+*.pem
+*.key
+*.cert
+secret_key.txt 
